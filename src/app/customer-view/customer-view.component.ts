@@ -1,5 +1,6 @@
 import {Component, Input, OnInit} from "@angular/core";
 import {Customer} from "../customer-table/Customer";
+import {CustomerService} from "../customer-service/customer.service";
 
 @Component({
   selector: 'customer-view',
@@ -9,10 +10,13 @@ import {Customer} from "../customer-table/Customer";
 export class CustomerViewComponent implements OnInit {
   private _customer: Customer;
 
-  constructor() {
+  constructor(private customerService: CustomerService) {
+    console.log("CustomerView CTOR");
+    console.log(this.customerService);
   }
 
   ngOnInit() {
+    console.log("CustomerView OnInit");
   }
 
 

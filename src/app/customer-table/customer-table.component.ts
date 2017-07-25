@@ -16,7 +16,11 @@ export class CustomerTableComponent implements OnInit {
   constructor(private customerService: CustomerService ) {
     console.log(this.customerService);
     console.log(this.customerService.customers);
-    this.customers = this.customerService.customers;
+    this.customerService.findAll().subscribe((custs) => {
+      this.customers = custs;
+    }, (err) => {
+      console.log("Can't find customers: " + err);
+    });
   }
 
   ngOnInit() {

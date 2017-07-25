@@ -18,6 +18,6 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit() {
-    console.log("I have been initted....");
+    console.log("App (Root) Init");
   }
 }

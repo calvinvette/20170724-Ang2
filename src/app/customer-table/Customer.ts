@@ -34,7 +34,7 @@ export class Customer {
   }
 
   get firstName(): string {
-    console.log("in fn getter");
+    // console.log("in fn getter");
     return this._firstName;
   }
 
