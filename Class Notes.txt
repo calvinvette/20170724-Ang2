@@ -173,6 +173,22 @@ http://fontawesome.io/icons/
 
 
 
+Generating a component:
+	ng generate component CustomerForm
+
+Generating a service - defaults to "flat"
+We had to disable flat in the generate clause.
+It also always suffixes the "Service" to your
+service name, so don't call it "CustomerService",
+just "Customer" (it will become CustomerService).
+You can also specify which directory to put all
+of your shared services (in this case, "services/":
+
+	ng generate service --flat false services/Customer
+
+
+
+
 
 
 
