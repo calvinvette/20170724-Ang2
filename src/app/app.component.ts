@@ -8,12 +8,6 @@ import {Customer} from "./customer-table/Customer";
 })
 export class AppComponent implements OnInit {
   title = '700 Wellington';
-  public tempCustomer: Customer = new Customer(1341,
-    "Neville",
-    "Longbottom",
-    "+1 44 0206 391-1551",
-    "Neville.Longbottom@hogwarts.ac.uk",
-    "");
 
   /*
    */

@@ -1,5 +1,17 @@
 <table border="1">
-  <tr *ngFor="let customer of customers">
-    <app-customer-view [customer]="customer"></app-customer-view>
+  <tr *ngFor="let cust of customers" (dblclick)="selectCustomer(cust)">
+    <td>{{cust.customerId}}</td>
+    <td>{{cust.firstName}}</td>
+    <td>{{cust.lastName}}</td>
+    <td>{{cust.phoneNumber}}</td>
+    <td>{{cust.email}}</td>
   </tr>
 </table>
+
+
+<customer-view *ngIf="!editSelectedCustomer && selectedCustomer && selectedCustomer.customerId > 0"
+               [customer]="selectedCustomer"
+               (dblclick)="editSelectedCustomer = true"
+></customer-view>
+<customer-form *ngIf="editSelectedCustomer && selectedCustomer && selectedCustomer.customerId > 0"
+               [customer]="selectedCustomer"></customer-form>

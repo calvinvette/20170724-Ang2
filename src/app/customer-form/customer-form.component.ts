@@ -1,20 +1,17 @@
-import {Component, Input, OnInit} from "@angular/core";
+import {Component, Input, OnInit} from '@angular/core';
 import {Customer} from "../customer-table/Customer";
 
 @Component({
-  selector: 'customer-view',
-  templateUrl: './customer-view.component.html',
-  styleUrls: ['./customer-view.component.css']
+  selector: 'customer-form',
+  templateUrl: './customer-form.component.html',
+  styleUrls: ['./customer-form.component.css']
 })
-export class CustomerViewComponent implements OnInit {
+export class CustomerFormComponent implements OnInit {
   private _customer: Customer;
-
-  constructor() {
-  }
+  constructor() { }
 
   ngOnInit() {
   }
-
 
   get customer(): Customer {
     return this._customer;
@@ -24,5 +21,4 @@ export class CustomerViewComponent implements OnInit {
   set customer(value: Customer) {
     this._customer = value;
   }
-
 }
