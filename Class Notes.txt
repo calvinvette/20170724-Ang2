@@ -3,19 +3,6 @@ calvin.vette@nextgeneducation.com
 calvinvette@gmail.com
 +1 248 894-4913 (Text)
 
-
-
-Will Xia
-Ubi Silvio Satchin
-Jacchiel Pete Nidal
-
-
-Steve Rimte 
-Mahsa Masa Tammam Wassim
-
-
-
-
 Web Hypertext Application Technology
 Working Group
 
@@ -103,7 +90,7 @@ Factories =~ Services ~~ Providers
 
 Lunch 12:35-1:35
 
-Wednesday + Thursday: Hadoop Administration 
+Wednesday + Thursday: Hadoop Administration
 
 Overview (all of DS)
 	Hadoop Ecosystem
@@ -111,13 +98,13 @@ Overview (all of DS)
 	Spark (Java/Scala/Python/R)
 	Cloud Deployments
 	Artificial Intelligence, Machine Learning
-	
+
 
 Transpiled - translated from TypeScript -> JavaScript
 	(ECMAScript 5 (asmjs), or newer targets like ES6)
-	
+
 	External Types for existing JS libraries
-	(definitelyTyped), 
+	(definitelyTyped),
 
 
 
@@ -138,7 +125,7 @@ Break until 3:35
 
 
 
-Pleerock's 
+Pleerock's
 	Class-Validator (based off of JSR-303 Bean Validation)
 	TypeORM (based off of JPA (with a bit of Doctrine))
 
@@ -168,11 +155,19 @@ CustomerDAO implements CRUD pattern (Create/Read/Update/Delete)
 
 
 
+https://github.com/calvinvette/20170724-Ang2
 
+Demo of "Loading image", content transclusion,
+ Font-awesome, and Routing 
+(The "<app-root>" content gets replaced after 
+Angular4 loads)
+http://www.pflproperties.com/#/home
 
+Glyph Icons - built-in to Bootstrap)
+http://getbootstrap.com/components/
 
-
-
+Font-Awesome
+http://fontawesome.io/icons/
 
 
 
